@@ -2,6 +2,8 @@
 
 A Result monad for modelling success or failure operations.
 
+https://fsharpforfunandprofit.com/rop/#monads
+
 ## License
 
     Copyright 2019 Andriy Se
