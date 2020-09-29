@@ -229,10 +229,6 @@ inline fun <R, T : R> Result<T>.recoverCatching(transform: (exception: Throwable
 }
 
 /**
- * "peek" onto value/exception and pipe
- */
-
-/**
  * Performs the given [action] on encapsulated exception if this instance represents [failure][Result.Failure].
  * Returns the original `Result` unchanged.
  */
